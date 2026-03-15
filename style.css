@@ -1,0 +1,102 @@
+body{
+background: linear-gradient(120deg,#0f2027,#203a43,#2c5364);
+font-family: Arial;
+margin:0;
+padding:0;
+color:white;
+}
+
+/* container principal */
+
+table{
+background:#e8f1f8;
+color:#111;
+border-radius:10px;
+box-shadow:0 6px 15px rgba(0,0,0,0.25);
+}
+
+/* titlu */
+
+h1{
+color:#00e5ff;
+}
+
+/* MENIU SUS */
+
+.menu{
+background:#111;
+padding:20px;
+text-align:center;
+}
+
+.menu a{
+text-decoration:none;
+color:white;
+background:#00bcd4;
+padding:12px 25px;
+margin:10px;
+font-size:18px;
+border-radius:8px;
+transition:0.3s;
+}
+
+.menu a:hover{
+background:#ff9800;
+color:black;
+}
+
+/* MENIU JOS */
+
+.bottom-menu{
+text-align:center;
+margin-top:40px;
+}
+
+.bottom-menu a{
+text-decoration:none;
+background:#00bcd4;
+color:white;
+padding:12px 25px;
+margin:10px;
+font-size:18px;
+border-radius:8px;
+}
+
+.bottom-menu a:hover{
+background:#ff9800;
+color:black;
+}
+
+/* imagini produse */
+
+img{
+border-radius:10px;
+transition:0.3s;
+}
+
+img:hover{
+transform:scale(1.05);
+}
+
+/* text */
+
+p{
+font-size:18px;
+}
+
+html{
+scroll-behavior:smooth;
+}
+
+table{
+box-shadow:0 5px 15px rgba(0,0,0,0.3);
+}
+
+td{
+padding:15px;
+}
+
+h4{
+color:#000000;
+font-size:20px;
+}
