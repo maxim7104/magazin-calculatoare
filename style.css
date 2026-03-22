@@ -1,4 +1,5 @@
 body{
+overflow-x: hidden;
 background: linear-gradient(120deg,#0f2027,#203a43,#2c5364);
 font-family: Arial;
 margin:0;
@@ -99,4 +100,25 @@ padding:15px;
 h4{
 color:#000000;
 font-size:20px;
+}
+
+.slider {
+    width: 1180px;
+    overflow: hidden;
+    margin: auto;
+    background: #e8f1f8;   /* 👈 IMPORTANT */
+    padding: 15px;
+    border-radius: 10px; /* opțional, arată mai modern */
+}
+
+.slider-track {
+    display: flex;
+    gap: 20px;
+}
+
+.slide {
+    min-width: 220px;
+    max-width: 220px;
+    text-align: center;
+    color:#111; 
 }
